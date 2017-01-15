@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Quicksand', sans-serif;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+header,footer{
+  min-height: 40px;
+  background-color: #FF7F00;
+}
+
+.wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 2% 0% 16% 0%;
+}
+.page-not-found,.page-not-found-img{
+	width: 50%;
+	float: left;
+}
+.page-not-found{
+	margin-top: 50px;
+}
+
+.page-not-found h1{
+	margin:  0;
+    font-size: 80px;
+    color: #FF5D2C;
+}
+.page-not-found h2{
+    margin: 0;
+    text-transform: uppercase;
+}
+.page-not-found p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.page-not-found ul{
+	    margin: 0;
+    padding: 0;
+}	
+.page-not-found ul li{
+    list-style-type: none;
+    float: left;
+    
+}
+.page-not-found ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #FF7F00;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 0 #b15b03;
+}
+.page-not-found ul li a:hover{
+	    background: #864200;
+}
+.page-not-found-img {
+	text-align: right;
+}
+.page-not-found-img > img{
+	    width: 60%;
+	    display: inline-block;
+}
